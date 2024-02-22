@@ -1,0 +1,123 @@
+header {
+    text-align:center;
+    font-family: fantasy;
+    font-size: 200%;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    height : auto;
+    max-height : auto;
+}
+
+body {
+    background-image:url("../image/ballons.jpg");
+	margin: 0;
+    padding: 0;
+    font-family: Didot, serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-decoration:underline ;
+    animation-duration: 2s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+}
+
+section {
+    display: flex;
+    line-height:10px;
+    flex: 1;
+    min-width: 25%; 
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: content-box;
+    border:0;
+    border-color:black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+article {
+    padding: 4px;
+    display: flex;
+    line-height:10px;
+    flex: 1;
+    border: 5px white;
+	border-radius: 10px;
+    box-sizing: content-box;
+    border:0;
+    border-color:black;
+    text-align: justify;
+    height : auto;
+    max-height : auto;
+    display: block;
+    line-height: 50px;
+    color:black;
+}
+
+
+footer {
+    border-radius: 10px;
+    text-align: center;
+    width : 100%;
+    height : auto;
+    max-height : 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    color:black;
+}
+
+p {
+    font-family: fantasy;
+    font-size: 150%;
+    font-style: normal;
+    text-align:center;
+
+}
+
+a {
+    font-family: fantasy;
+    font-size: 150%;
+    font-style: normal;
+    text-align:center;
+    cursor: pointer;
+
+}
+
+a:hover {
+    font-size:160%;
+}
+
+#img {
+    width: 100%;
+	height : auto;
+	max-height : 400px;
+	display: block;
+
+}
+
+#txt {
+    text-align: justify;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,176,0,1) 16%, rgba(255,249,0,1) 33%, rgba(11,121,9,1) 46%, rgba(0,228,255,1) 68%, rgba(0,4,255,1) 81%, rgba(168,0,255,1) 90%, rgba(255,0,222,1) 96%);
+}
+
+#choix {
+    text-align: justify;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,176,0,1) 16%, rgba(255,249,0,1) 33%, rgba(11,121,9,1) 46%, rgba(0,228,255,1) 68%, rgba(0,4,255,1) 81%, rgba(168,0,255,1) 90%, rgba(255,0,222,1) 96%);
+}
+
+
+@keyframes clignoter {
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+  }
+
