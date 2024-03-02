@@ -1,0 +1,126 @@
+header {
+    text-align:center;
+    font-family: fantasy;
+    font-size: 200%;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    height : auto;
+    max-height : auto;
+}
+
+body {
+    background: rgb(88,88,91);
+background: linear-gradient(90deg, rgba(88,88,91,1) 0%, rgba(29,29,29,1) 27%, rgba(125,126,126,1) 49%, rgba(5,12,14,1) 74%, rgba(118,121,121,1) 100%);
+	margin: 0;
+    padding: 0;
+    font-family: Didot, serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-decoration:underline ;
+    animation-duration: 2s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+}
+
+section {
+    display: flex;
+    line-height:20px;
+    flex: 1;
+    min-width: 25%; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: content-box;
+    border:0;
+    border-color:black;
+    
+}
+
+article {
+    padding: 5px;
+    display: flex;
+    line-height:20px;
+    flex: 1;
+    border: 5px white;
+	border-radius: 20px;
+    box-sizing: content-box;
+    border:0;
+    border-color:black;
+    text-align: justify;
+    height : auto;
+    max-height : auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    color:black;
+}
+
+
+footer {
+    border-radius: 10px;
+    text-align: center;
+    width : 100%;
+    height : auto;
+    max-height : 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    color:black;
+}
+
+p {
+    font-family: fantasy;
+    font-size: 150%;
+    font-style: normal;
+    text-align:center;
+
+}
+
+a {
+    font-family: fantasy;
+    font-size: 150%;
+    font-style: normal;
+    text-align:center;
+    cursor: pointer;
+
+}
+
+a:hover {
+    font-size:160%;
+}
+
+#img {
+    width: 100%;
+	height : auto;
+	max-height : 400px;
+	display: block;
+
+}
+
+#txt {
+    text-align: justify;
+    background-color: rgb(29,29,29);
+    background: linear-gradient(90deg, rgba(29,29,29,1) 0%, rgba(88,88,91,1) 17%, rgba(5,12,14,1) 53%, rgba(125,126,126,1) 77%, rgba(2,9,10,1) 100%);
+    width: 100%;
+    height: auto;
+}
+
+#choix {
+    text-align: justify;
+    background-color: rgb(29,29,29);
+    background: linear-gradient(90deg, rgba(29,29,29,1) 0%, rgba(88,88,91,1) 17%, rgba(5,12,14,1) 53%, rgba(125,126,126,1) 77%, rgba(2,9,10,1) 100%);
+    width: 100%;
+    height: auto;
+}
+
+@keyframes clignoter {
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+  }
