@@ -11,12 +11,14 @@ header {
 }
 
 body {
-    background-color: #52524e;
+    background-color: #7e0909;
 	margin: 0;
     padding: 0;
     font-family: Didot, serif;
 }
-
+a:hover {
+    font-size:160%;
+}
 h1 {
     color: rgb(0, 0, 0);
     text-decoration:underline ;
@@ -38,9 +40,7 @@ section {
     border-color:black;
     
 }
-a:hover {
-    font-size:160%;
-}
+
 article {
     display: flex;
     line-height:10px;
@@ -70,12 +70,12 @@ article {
 
 #txt {
     text-align: justify;
-    background-color: #73736b;
+    background-color: #b51c1c;
 }
 
 #choix {
     text-align: justify;
-    background-color: #73736b;
+    background-color: #b51c1c;
 }
 
 footer {
